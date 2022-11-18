@@ -1,0 +1,91 @@
+.preference-form-wrapper {
+    position: relative;
+    width: 40rem;
+    height: 60rem;
+    /* background-color: rgb(127, 195, 255); */
+    margin: 5rem auto;
+    padding: 1rem;
+}
+
+.preference-form-wrapper .preference-form {
+    position: relative;
+    width: 35rem;
+    height: 55rem;
+    background-color: hsl(210, 6%, 14%);
+    margin: auto;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.preference-form-wrapper .preference-form .preference-form-heading-question {
+    position: absolute;
+    margin: 1.5rem auto;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(30, 46%, 91%);
+}
+
+.preference-form-wrapper .preference-form .checkbox-containers {
+    position: relative;
+    /* background-color: rgb(91, 69, 183); */
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem auto;
+    top: 8rem;
+}
+
+.preference-form-wrapper .preference-form .checkbox-containers .checkbox-inputs {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    margin: auto;
+}
+
+
+.preference-form-wrapper .preference-form .checkbox-containers .checkbox-labels {
+    position: absolute;
+    font-weight: 300;
+    font-size: 1.5rem;
+    left: 2.5rem;
+    color: hsl(30, 46%, 91%);
+}
+
+.preference-form-wrapper .preference-form .preference-form-cancel-text-container, 
+
+.preference-form-wrapper .preference-form .preference-form-next-text-container {
+    position: relative;
+    width: 3rem;
+    height: 2rem;
+    /* background-color: aqua; */
+    margin: 1rem auto;
+
+}
+
+.preference-form-wrapper .preference-form .preference-form-cancel-text-container {
+    left: -13rem;
+    top: 10rem;
+}
+
+.preference-form-wrapper .preference-form .preference-form-next-text-container {
+    left: 13rem;
+    top: 6.8rem;
+}
+
+.preference-form-wrapper .preference-form .preference-form-cancel-text-container .preference-form-cancel-text, 
+
+.preference-form-wrapper .preference-form .preference-form-next-text-container .preference-form-next-text {
+
+    color: hsl(34, 40%, 56%);
+}

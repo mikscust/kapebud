@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preference Form Part 2 | KapeBud</title>
+    <!-- default css file start -->
+    <link rel="stylesheet" href="default-style.css">
+    <!-- default css file end -->
+    <link rel="stylesheet" href="another-preference-form.css">
+</head>
+<body>
+    <main class="another-preference-form-wrapper">
+        <form class="another-preference-form">
+            <div class="select-taste-of-coffee-container">
+                <label for="coffees" class="choose-coffee-label-text">choose your coffee feels ☕ </label>
+
+                <select id="coffees" name="coffees" class="dropdown-coffees">
+                  <option value="light" class="coffee-options">light 😄</option>
+                  <option value="medium-coffee" class="coffee-options">medium 🤗</option>
+                  <option value="strong-coffee" class="coffee-options">strong 🤩</option>
+                </select>
+            </div>
+
+            <div class="message-to-someone-container">
+                <label for="message" class="message-label-text">ano ang short message mo to your kapebud? </label>
+
+                <textarea id="message" name="message" rows="2" cols="30" class="message-textarea">hey kapebud, i'm looking forward to meeting you po! 😊
+                </textarea>
+            </div>
+
+            <div class="date-availability-container">
+                <label for="date" class="date-label-text">when will you be available? (list 3 dates) </label>
+
+                <input type="date" id="booking-date-1" name="booking">
+
+                <input type="date" id="booking-date-2" name="booking">
+
+                <input type="date" id="booking-date-3" name="booking">
+            </div>
+
+            <!-- freebies -->
+            <div class="freebie-container">
+                <!-- suman -->
+                <p class="freebie-text-paragraph">select your freebie 🤎</p>
+                <div class="suman-container">
+                    <input type="radio" name="freebies" id="suman"   class="freebies-input" />
+                    <label for="suman" class="freebies-texts">suman</label>
+                </div>
+
+                <!-- kalamay -->
+                <div class="kalamay-container">
+                    <input type="radio" name="freebies" id="kalamay"   class="freebies-input" />
+                    <label for="kalamay" class="freebies-texts">kalamay</label>
+                </div>
+
+                <!-- bibingka -->
+                <div class="bibingka-container">
+                    <input type="radio" name="freebies" id="bibingka"   class="freebies-input" />
+                    <label for="bibingka" class="freebies-texts">bibingka</label>
+                </div>
+            </div>
+
+            <div class="another-preference-form-submit-text-container">
+                <a href="thank-you.html" class="another-preference-submit-text">submit</a>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

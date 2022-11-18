@@ -1,0 +1,47 @@
+.welcome-back-container {
+    position: relative;
+    width: 35rem;
+    height: 20rem;
+    /* background-color: blue; */
+    margin: 5rem auto;
+    padding: 2.5rem;
+}
+
+.welcome-back-container .welcome-back-heading-text,
+
+.welcome-back-container .genuine-message-text,
+
+.welcome-back-container .welcome-back-question-text {
+    position: absolute;
+    color: hsl(26, 9%, 16%);
+}
+
+.welcome-back-container .genuine-message-text {
+    top: 5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.welcome-back-container .welcome-back-question-text {
+    top: 9rem;
+    margin: auto;
+    text-decoration: underline;
+    text-decoration-color: hsl(26, 9%, 16%);
+    -moz-text-decoration-color: hsl(26, 9%, 16%);
+    -webkit-text-decoration-color: hsl(26, 9%, 16%);
+    -o-text-decoration-color: hsl(26, 9%, 16%);
+    -ms-text-decoration-color: hsl(26, 9%, 16%);
+}
+
+.welcome-back-container .welcome-back-home-button {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: hsl(210, 6%, 14%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 15rem;
+}

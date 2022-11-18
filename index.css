@@ -1,0 +1,244 @@
+.landing-page-body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.landing-page-body {
+    position: relative;
+}
+
+/* illustrations and text contents start */
+
+.landing-page-body .landing-page-illustration-and-text-contents {
+    position: relative;
+    /* background-color: brown; */
+    width: 30rem;
+    height: 27rem;
+    margin:  8rem auto;
+}
+
+.landing-page-body .landing-page-illustration-and-text-contents .landing-page-texts-wrapper {
+    position: relative;
+    /* background-color: rgb(168, 96, 9); */
+    width: 20rem;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+
+.landing-page-body .landing-page-illustration-and-text-contents .landing-page-texts-wrapper .landing-page-title-heading-text {
+    position: absolute;
+    font-size: 5rem;
+    font-weight: 400;
+    color: hsl(330, 3%, 14%);
+
+}
+
+.landing-page-body .landing-page-illustration-and-text-contents .landing-page-texts-wrapper .landing-page-tagline-paragraph-text {
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 300;
+    top: 7rem;
+    color: hsl(17, 4%, 31%);
+}
+
+.landing-page-body .landing-page-illustration-and-text-contents .landing-page-illustration-wrapper {
+    width: 30rem;
+    height: 11rem;
+    /* background-color: rgb(36, 19, 17); */ 
+    position: relative;
+    margin: 0 auto;
+}
+
+.landing-page-body .landing-page-illustration-and-text-contents .landing-page-illustration-wrapper .landing-page-illustration-photo {
+    position: absolute;
+    margin: 1rem;
+    width: 30rem;
+    height: 25rem;
+    top: -5rem;
+}
+
+/* illustrations and text contents end */
+
+
+/* form start */
+
+.landing-page-body .landing-page-form-contents {
+    position: relative;
+    width: 35rem;
+    height: 32rem;
+    /* background-color: rgb(11, 85, 69); */
+    margin:  8rem auto;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper {
+    position: relative;
+    width: 34rem;
+    height: 32rem;
+    /* background-color: rgb(0, 71, 79); */
+    margin: auto;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form {
+    position: relative;
+    width: 33rem;
+    height: 32rem;
+    background-color: hsl(210, 6%, 14%);
+    padding: 2.5rem;
+    margin: auto;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-form-email-container {
+    position: relative;
+    width: 20rem;
+    height: 3.5rem;
+    /* background-color: rgb(65, 105, 225); */
+    margin: auto;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-form-email-container .landing-page-form-email-input {
+    position: absolute;
+    width: 20rem;
+    height: 3.5rem;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(36, 18%, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.1rem;
+    border-color: hsl(29, 44%, 86%);
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-form-password-container {
+    position: relative;
+    width: 20rem;
+    height: 3.5rem;
+    /* background-color: rgb(85, 65, 162); */
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-form-password-container .landing-page-form-password-input {
+    position: absolute;
+    width: 20rem;
+    height: 3.5rem;    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(36, 18%, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.1rem;
+    border-color: hsl(29, 44%, 86%);
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-sign-in-button-container {
+    position: relative;
+    width: 12rem;
+    height: 4rem;
+    /* background-color: rgb(136, 94, 163); */
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+} 
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-sign-in-button-container .landing-page-sign-in-button {
+    position: absolute;
+    background-color: hsl(29, 44%, 86%);
+    width: 10rem;
+    height: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: hsl(228, 7%, 14%);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-forgot-password-container {
+    position: relative;
+    width: 12rem;
+    height: 3rem;
+    /* background-color: rgb(124, 216, 255); */
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-forgot-password-container .landing-page-forgot-password-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(214, 6%, 51%);
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-form-line-break {
+    position: relative;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    width: 20rem;
+    background-color: hsl(214, 6%, 51%);
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-sign-up-button-container {
+    position: relative;
+    width: 12rem;
+    height: 4rem;
+    /* background-color: rgb(87, 255, 227); */
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.landing-page-body .landing-page-form-contents .landing-page-form-wrapper .landing-page-form .landing-page-sign-up-button-container .landing-page-sign-up-button {
+    position: absolute;
+    background-color: hsl(35, 60%, 58%);
+    width: 10rem;
+    height: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: hsl(35, 55%, 16%);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+/* form end */
+
+
+/* video player start */
+.landing-page-body .landing-page-video-wrapper {
+    position: relative;
+    width: 25rem;
+    height: 15rem;
+    /* background-color: rgb(203, 214, 47); */
+    margin: 5rem auto;
+}
+
+
+.landing-page-body .landing-page-video-wrapper .landing-page-video-file {
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+    /* center margin video file */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

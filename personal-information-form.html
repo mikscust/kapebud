@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info | KapeBud</title>
+    <!-- default css file start -->
+    <link rel="stylesheet" href="default-style.css">
+    <!-- default css file end -->
+    <link rel="stylesheet" href="personal-information-form.css">
+</head>
+<body>
+    <main>
+        <form action="#" class="personal-information-form">
+
+            <h1 class="personal-info-heading-text">personal info</h1>
+
+            <!-- full name -->
+            <div class="fullname-container">
+                <input type="text" name="fullname" id="fullname" placeholder="full name"  class="fullname-input" required/>
+            </div>
+
+            <!-- age -->
+            <div class="age-container">
+                <input type="number" name="age" id="age" placeholder="age (bawal minors haha)"  class="age-input" min="18" max="100" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" required/>
+            </div>
+
+            <!-- genders -->
+            <div class="genders-container">
+                <!-- female -->
+                <p class="gender-text-paragraph">gender</p>
+                <div class="female-container">
+                    <input type="radio" name="genders" id="female"   class="genders-input" />
+                    <label for="female" class="genders-texts">🙋‍♀️female</label>
+                </div>
+
+                <!-- male -->
+                <div class="male-container">
+                    <input type="radio" name="genders" id="male"   class="genders-input" />
+                    <label for="male" class="genders-texts">🙋‍♂️male</label>
+                </div>
+
+                <!-- other -->
+                <div class="other-container">
+                    <input type="radio" name="genders" id="other"   class="genders-input" />
+                    <label for="other" class="genders-texts">✨other</label>
+                </div>
+            </div>
+
+            <!-- contact number -->
+            <div class="contactnumber-container">
+                <input type="tel" name="contactnumber" id="contactnumber" placeholder="contact number"  class="contactnumber-input" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+            </div>
+
+            <!-- id verification -->
+            <div class="idverification-container">
+                <input type="file" name="idverification" id="idverification"  class="upload-file-input" accept=".pdf" required />
+            </div>
+
+            <!-- buttons -->
+            <div class="personal-information-buttons-containers">
+                <!-- home button -->
+                <button type="submit" class="personal-information-home-button" onclick="location.href='index.html'">
+                    <img src="home-icon-brownish.svg"   alt="home icon" class="personal-information-home-icon" />
+                </button>
+
+                <!-- next button -->
+                <button type="submit" class="personal-information-next-button" onclick="location.href='preference-form.html'">
+                    <img src="right-arrow-icon-brownish.svg"   alt="home icon" class="personal-information-right-arrow-icon" />
+                </button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

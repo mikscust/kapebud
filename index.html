@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | KapeBud</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400&display=swap" rel="stylesheet">
+    <!-- default css file start -->
+    <link rel="stylesheet" href="default-style.css">
+    <!-- default css file end -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <main class="landing-page-body">
+
+        <article class="landing-page-illustration-and-text-contents">
+
+            <!-- 1st section landing page brand name and product description -->
+            <section class="landing-page-texts-wrapper">
+                    <h1 class="landing-page-title-heading-text">kapebud</h1>
+                    <p class="landing-page-tagline-paragraph-text">get your next coffee buddy with kapebud and get to know new people over a cup of coffee.</p>
+            </section>
+            
+            <!-- 2nd section landing page illustration -->
+            <section class="landing-page-illustration-wrapper">
+                <img src="coffee-mugs.svg" alt="coffee mugs illustration" class="landing-page-illustration-photo" />
+            </section>
+        </article>
+
+        <article class="landing-page-form-contents">
+            <!-- 3rd section landing page sign in or sign up form -->
+            <section class="landing-page-form-wrapper">
+
+                <form action="#" class="landing-page-form">
+                    <!-- email placeholder -->
+                    <div class="landing-page-form-email-container">
+                        <input type="email" name="email" id="email" placeholder="email"  class="landing-page-form-email-input" required />
+                    </div>
+
+                    <!-- password placeholder -->
+                    <div class="landing-page-form-password-container">
+                        <input type="password" name="password" id="password" placeholder="password" class="landing-page-form-password-input" required />
+                    </div>
+
+                    <!-- sign in button -->
+                    <div class="landing-page-sign-in-button-container">
+                        <button type="submit" class="landing-page-sign-in-button" onclick="location.href='welcome-back.html'">sign in</button>
+                    </div>
+
+                    <!-- forgot password text -->
+                    <div class="landing-page-forgot-password-container">
+                        <a href="#" class="landing-page-forgot-password-text">forgot password?</a>
+                    </div>
+
+                    <!-- line break -->
+                    <hr class="landing-page-form-line-break">
+
+                    <!-- sign up button -->
+                    <div class="landing-page-sign-up-button-container">
+                        <button type="submit" class="landing-page-sign-up-button" onclick="location.href='personal-information-form.html'">sign up</button>
+                    </div>
+                </form>
+
+            </section>
+        </article>
+
+        <!-- music audio video -->
+        <aside class="landing-page-video-wrapper">
+            <video src="audio-video.mov" autoplay loop controls class="landing-page-video-file">
+                <track label="english" kind="captions" srclang="en" src="" default>
+            </video>
+        </aside>
+
+    </main>
+
+</body>
+</html>

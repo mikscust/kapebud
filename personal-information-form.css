@@ -1,0 +1,244 @@
+
+.personal-information-form {
+    position: relative;
+    width: 40rem;
+    height: 50rem;
+    background-color: hsl(210, 6%, 14%);
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.personal-information-form .personal-info-heading-text {
+    position: relative;
+    margin: 2rem;
+    text-align: center;
+    color: hsl(27, 19%, 80%);
+    font-weight: 300;
+}
+
+/* full name section start */
+
+.personal-information-form .fullname-container {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    /* background-color: rgb(90, 207, 183); */
+    margin: 2rem auto;
+}
+
+.personal-information-form .fullname-container .fullname-input {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(36, 18%, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.1rem;
+    border-color: hsl(29, 44%, 86%);
+}
+
+/* full name section end */
+
+/* age section start */
+
+.personal-information-form .age-container {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    /* background-color: rgb(90, 207, 183); */
+    margin: 2rem auto;
+}
+
+.personal-information-form .age-container .age-input {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(36, 18%, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.1rem;
+    border-color: hsl(29, 44%, 86%);
+}
+
+/* age section end */
+
+/* genders section start */
+
+.personal-information-form .genders-container {
+    position: relative;
+    background-color: hsl(29, 44%, 86%);
+    border-radius: 0.5rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.personal-information-form .genders-container .gender-text-paragraph {
+    position: relative;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(210, 6%, 14%);
+}
+
+/* female male other containers start */
+
+.personal-information-form .genders-container .female-container,
+
+.personal-information-form .genders-container .male-container, 
+
+.personal-information-form .genders-container .other-container{
+    position: relative;
+    background-color: hsl(210, 10%, 16%);
+    border-radius: 2rem;
+    width: 12rem;
+    height: 3rem;
+    margin: 0.5rem auto;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+/* female male other containers end */
+
+/* radio buttons start */
+
+.personal-information-form .genders-container .female-container .genders-input,
+
+.personal-information-form .genders-container .male-container .genders-input, 
+
+.personal-information-form .genders-container .other-container .genders-input {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+/* radio buttons end */
+
+/* label texts start */
+
+.personal-information-form .genders-container .female-container .genders-texts,
+
+.personal-information-form .genders-container .male-container .genders-texts, 
+
+.personal-information-form .genders-container .other-container .genders-texts {
+    position: absolute;
+    top: 0.5rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+    color: hsl(24, 29%, 83%);
+
+}
+
+/* label texts end */
+
+/* genders section start */
+
+/* contact number start */
+
+.personal-information-form .contactnumber-container {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    /* background-color: rgb(90, 207, 183); */
+    margin: 2rem auto;
+}
+
+.personal-information-form .contactnumber-container .contactnumber-input {
+    position: absolute;
+    width: 15rem;
+    height: 3rem;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: hsl(36, 18%, 50%);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.1rem;
+    border-color: hsl(29, 44%, 86%);
+}
+
+.personal-information-form .idverification-container {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    /* background-color: rgb(90, 207, 183); */
+    margin: 2rem auto;
+}
+
+.personal-information-form .idverification-container .upload-file-input {
+    position: absolute;
+    width: 14rem;
+    height: 2.5rem;
+    background-color: hsl(29, 44%, 86%);
+    top: 0.2rem;
+    left: 0.5rem;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem ;
+    padding-left: 0.8rem;
+    color: hsl(210, 10%, 16%);
+}
+
+.personal-information-form .personal-information-buttons-containers {
+    position: relative;
+    margin: auto;
+    /* background-color: hsl(27, 42%, 86%); */
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.personal-information-form .personal-information-buttons-containers .personal-information-home-button, 
+
+.personal-information-form .personal-information-buttons-containers .personal-information-next-button {
+    position: absolute;
+    background-color: hsl(34, 40%, 56%);
+}
+
+.personal-information-form .personal-information-buttons-containers .personal-information-home-button {
+    top: 0.3rem;
+    left: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+.personal-information-form .personal-information-buttons-containers .personal-information-next-button {
+    top: 0.3rem;
+    left: 6rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
