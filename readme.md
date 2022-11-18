@@ -46,3 +46,6 @@ helpful insights learned:
 - don't make a long naming convention, it will be confusing when it - comes to styling
 - separate the default css file so there won't have conflicts
 - always use different background colors when styling groupings
+
+official website link:
+http://kapebud.vercel.app/
